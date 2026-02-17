@@ -1,6 +1,6 @@
 from .service import PaymentService
 from .processors import StripePaymentProcessor
-from .notifiers import EmailNotifier, SMSNotifier
+from .notifiers import EmailNotifier, SMSNotifier  # noqa: F401
 from .validators import CustomerValidator, PaymentDataValidator
 from .loggers import TransactionLogger
 from payment_service import service
