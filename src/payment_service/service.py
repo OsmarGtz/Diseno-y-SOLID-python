@@ -20,6 +20,10 @@ class PaymentService:
     recurring_processor: Optional[RecurringPaymentProtocol] = None
     refund_processor: Optional[RefundPaymentProtocol] = None
 
+    def set_notifier( self, notifier: NotifierProtocol):
+        print("setting notifier")
+        self.notifier = notifier
+  
     def process_transaction(
         self, customer_data: CustomerData, payment_data: PaymentData
     ) -> PaymentResponse:
