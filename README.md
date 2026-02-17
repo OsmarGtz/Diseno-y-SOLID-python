@@ -2,11 +2,8 @@
 
 Este repositorio contiene el código de ejemplo para el curso de diseño y SOLID en Python.
 
-Se encontrarán los siguientes archivos:
-
-- src/solid_principles/single_responsability/before.py: código antes de la refactorización
-- src/solid_principles/single_responsability/after.py: código después de la refactorización
-- src/solid_principles/initial_code.py: código inicial
+Se encontrará el codigo inicial en el archivo `src/solid_principles/initial_code.py`.
+Los archivos en las subsecuentes carpetas son ejemplos antes y después de la aplicación de las principios de diseño y SOLID.
 
 ## Requisitos
 
